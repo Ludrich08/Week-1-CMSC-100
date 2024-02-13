@@ -11,7 +11,7 @@
 .item {
     border: none;
     margin: 10px;
-    background-color: rgb(183, 254, 41);
+    background-color:beige;
     height: 40px;
     width: 110px;
     cursor: pointer;
@@ -20,7 +20,7 @@
 
 .item:hover {
     background-color: darkslategray;
-    color: black;
+    color: beige;
 }
 
 .logo {
@@ -31,13 +31,41 @@
 }
 
 .container {
+    display: flex;
     border: 5px solid black;
     border-top: none;
-    height: 100vh;
+    border-bottom: none;
+    height: 50;
     width: 100vh;
     margin: auto;
 }
 
-.item-2 {
 
+img {
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skills {
+    display: flex;
+    width: 100vh;
+    text-align: center;
+    margin: auto;
+    border: 5px solid black;
+    border-top: none;
+    border-bottom: none;
+    font-family: "Lucida Sans", serif, sans-serif;
+    font-size: 20px;
+    flex-direction: column;
+}
+
+.container2 {
+    display: flex;
+    width: 100vh;
+    margin: auto;
+    border: 5px solid black;
+    border-top: none;
+    height: 50vh;
 }
